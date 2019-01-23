@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Exercice2Component implements OnInit {
 
-  constructor() { }
+  constructor() {
+  	
+  }
 
   ngOnInit() {
   }
-
+  afficheClick(){
+  	console.log("click");
+  }
 }
